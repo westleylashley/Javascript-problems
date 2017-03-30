@@ -1,6 +1,6 @@
 ##Javascript Problems
 
-###1 - Zero to Twenty
+1 - Zero to Twenty
 Write a function called **generateZeroToTwenty** that returns an array of integers from 0 to 20, inclusive.
 
 ~~~javascript
@@ -13,7 +13,7 @@ function generateZeroToTwenty() {
 }
 generateZeroToTwenty();
 ~~~
-###2 - Twenty to Zero
+2 - Twenty to Zero
 Write a function called **generateTwentyToZero** that returns an array of integers from 20 to 0 in descending order.
 
 ~~~javascript
@@ -26,7 +26,7 @@ function generateTwentyToZero() {
 }
 generateTwentyToZero();
 ~~~
-###3 - Even Numbers
+3 - Even Numbers
 Write a function called **generateEvenNumbers** that will return an array of even numbers between 0 and 20, inclusive.
 
 ~~~javascript
@@ -41,7 +41,7 @@ function generateEvenNumbers() {
 }
 generateEvenNumbers();
 ~~~
-###4 - Multiply By Nine
+4 - Multiply By Nine
 Write a function called **multiplyByNine** that accepts an array of integers. It returns an array-of-arrays containing the original integers and each integer multiplied by 9.
 
 For example, given the input array [1,2,3], 
@@ -58,7 +58,7 @@ function multiplyByNine(inputArray) {
 }
 multiplyByNine(inputArray);
 ~~~
-###5 - Add Arrays
+5 - Add Arrays
 Write a function that adds 2 given arrays of numbers, of the same length.
 
 Example: sumArrays([1,2,3], [4,5,6]) ⇒ [5,7,9]
@@ -74,7 +74,7 @@ function sumArrays(oneArray, twoArray) {
 }
 sumArrays(oneArray, twoArray);
 ~~~
-###6 - Max Value in Array
+6 - Max Value in Array
 Write a function that finds the maximum value in a given array. Do not use Math.max
 
 ~~~javascript
@@ -90,7 +90,7 @@ function Max(oneArray) {
 }
 Max(oneArray);
 ~~~
-###7 - Average Values
+7 - Average Values
 Write a function that averages a given array of numbers.
 
 ~~~javascript
@@ -104,7 +104,7 @@ function avgArray(oneArray) {
 }
 avgArray(oneArray);
 ~~~
-###8 - Alternate operators
+8 - Alternate operators
 Write a function that adds and subtracts a given array of numbers in alternation and returns the result. For example, given [1,2,3,4,5], it should return -1, because 1+2-3+4-5=-1
 
 ~~~javascript
@@ -122,7 +122,7 @@ var addArray = function (oneArray) {
 };
 addArray(oneArray);
 ~~~
-###9 - Line o' Asterisks
+9 - Line o' Asterisks
 Write a function that returns a horizontal line of asterisks of a specified length.
 
 Don't just write this out to the log -- actually return the string.
@@ -137,18 +137,10 @@ function lineOfAsteriks(Number) {
 }
 lineOfAsteriks(60);
 ~~~
-###10 - Draw a Right Triangle
+10 - Draw a Right Triangle
 Write a function called drawTriangle that returns the following string. Feel free to debug-print using console.log, but make sure that the function actually returns a string. 
 
 Note that in a string, the character for a carriage return (the equivalent of hitting the “Enter” or “Return” key) is “\n”.
-
-#
-##
-###
-####
-#####
-######
-#######
 
 ~~~javascript
 function drawTriangle() {
